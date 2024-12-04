@@ -1,0 +1,4 @@
+{
+    "target_url": "http://localhost:8000", 
+    "content_directory": "./content"
+}

@@ -1,0 +1,171 @@
+# docker-compose.yml
+
+networks:
+  etl-network:
+    driver: bridge
+
+services:
+  kafka:
+    image: 'bitnami/kafka:latest'
+    container_name: kafka
+    networks:
+      - etl-network
+    environment:
+      # Kafka KRaft Mode Configuration
+      - KAFKA_CFG_NODE_ID=0
+      - KAFKA_CFG_PROCESS_ROLES=controller,broker
+      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_NUM_PARTITIONS=1
+      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+      - KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+    ports:
+      - "9092:9092"
+    volumes:
+      - kafka_data:/bitnami/kafka
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    networks:
+      - etl-network
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    restart: unless-stopped
+
+  ingestion:
+    build: ./ingestion
+    container_name: ingestion_service
+    networks:
+      - etl-network
+    environment:
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - MINIO_BUCKET=mybucket
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC=test-topic
+      - LOG_FILE_PATH=/logs/data_ingestion.log
+    ports:
+      - "8000:8000"
+    volumes:
+      - logs:/logs
+    depends_on:
+      - kafka
+      - minio
+    restart: unless-stopped
+
+  processing:
+    build: ./processing
+    container_name: processing_service
+    networks:
+      - etl-network
+    environment:
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - SOURCE_BUCKET=mybucket
+      - TARGET_BUCKET=processed-bucket
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - KAFKA_TOPIC=test-topic
+      - CHUNK_TOPIC=chunk-topic
+      - CHUNK_SIZE=1000
+      - LOG_FILE_PATH=/logs/data_processing.log
+    ports:
+      - "8001:8001"
+    volumes:
+      - logs:/logs
+    depends_on:
+      - kafka
+      - minio
+    restart: unless-stopped
+
+  retrieval:
+    build: ./retrieval
+    container_name: retrieval_service
+    networks:
+      - etl-network
+    environment:
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ACCESS_KEY=minioadmin
+      - MINIO_SECRET_KEY=minioadmin
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - CHUNK_TOPIC=chunk-topic
+      - LOG_FILE_PATH=/logs/data_retrieval.log
+    volumes:
+      - logs:/logs
+    depends_on:
+      - kafka
+      - minio
+    restart: unless-stopped
+
+  locust:
+    build: ./locust
+    container_name: locust_service
+    depends_on:
+      - ingestion
+    environment:
+      LOCUST_HOST: http://ingestion:8000
+      LOCUST_USERS: 1
+      LOCUST_SPAWN_RATE: 1
+      LOCUST_RUN_TIME: 5m
+    networks:
+    - etl-network
+    ports:
+      - "8089:8089"
+
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    networks:
+      - etl-network
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    depends_on:
+      - ingestion
+      - processing
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    networks:
+      - etl-network
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  minio_data:
+  kafka_data:
+  prometheus_data:
+  grafana_data:
+  logs:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ${PWD}/logs  # Map the logs volume to the 'logs' directory in your project
+

@@ -1,0 +1,15 @@
+# prometheus.yml
+
+global:
+  scrape_interval: 15s  # How frequently to scrape metrics
+
+scrape_configs:
+  - job_name: 'ingestion'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['ingestion:8000']
+
+  - job_name: 'processing'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['processing:8001']
