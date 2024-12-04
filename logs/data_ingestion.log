@@ -2231,3 +2231,1725 @@ fastapi.exceptions.HTTPException: 400: Failed to fetch data from URL.
 2024-12-04 19:15:43,768 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 29.
 2024-12-04 19:16:30,332 - ingestion - INFO - Bucket 'mybucket' created.
 2024-12-04 19:16:30,366 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-04 20:54:25,636 - ingestion - INFO - Bucket 'mybucket' created.
+2024-12-04 20:54:25,678 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-04 20:54:30,113 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:30,984 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 0.
+2024-12-04 20:54:30,996 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:30,999 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 1.
+2024-12-04 20:54:31,008 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:31,011 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 2.
+2024-12-04 20:54:31,020 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:31,023 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 3.
+2024-12-04 20:54:31,037 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:31,040 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 4.
+2024-12-04 20:54:31,050 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:31,053 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 5.
+2024-12-04 20:54:34,352 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:34,354 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 6.
+2024-12-04 20:54:34,372 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:34,373 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 7.
+2024-12-04 20:54:34,386 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:34,387 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 8.
+2024-12-04 20:54:34,398 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:34,400 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 9.
+2024-12-04 20:54:34,416 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:34,428 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 10.
+2024-12-04 20:54:34,439 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:34,441 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 11.
+2024-12-04 20:54:36,956 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:36,957 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 12.
+2024-12-04 20:54:36,975 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:36,977 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 13.
+2024-12-04 20:54:36,990 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:36,993 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 14.
+2024-12-04 20:54:37,006 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:37,008 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 15.
+2024-12-04 20:54:37,024 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:37,026 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 16.
+2024-12-04 20:54:37,037 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:37,038 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 17.
+2024-12-04 20:54:38,873 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:38,875 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 18.
+2024-12-04 20:54:38,895 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:38,897 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 19.
+2024-12-04 20:54:38,910 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:38,912 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 20.
+2024-12-04 20:54:38,924 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:38,925 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 21.
+2024-12-04 20:54:38,944 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:38,945 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 22.
+2024-12-04 20:54:38,957 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:38,958 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 23.
+2024-12-04 20:54:42,012 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:42,013 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 24.
+2024-12-04 20:54:42,028 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:42,029 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 25.
+2024-12-04 20:54:42,041 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:42,042 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 26.
+2024-12-04 20:54:42,056 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:42,057 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 27.
+2024-12-04 20:54:42,075 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:42,076 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 28.
+2024-12-04 20:54:42,088 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:42,090 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 29.
+2024-12-04 20:54:45,349 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:45,350 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 30.
+2024-12-04 20:54:45,365 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:45,366 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 31.
+2024-12-04 20:54:45,379 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:45,380 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 32.
+2024-12-04 20:54:45,392 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:45,393 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 33.
+2024-12-04 20:54:45,409 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:45,410 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 34.
+2024-12-04 20:54:45,420 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:45,421 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 35.
+2024-12-04 20:54:47,945 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:47,946 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 36.
+2024-12-04 20:54:47,961 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:47,962 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 37.
+2024-12-04 20:54:47,973 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:47,974 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 38.
+2024-12-04 20:54:47,985 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:47,986 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 39.
+2024-12-04 20:54:48,001 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:48,002 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 40.
+2024-12-04 20:54:48,013 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:48,014 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 41.
+2024-12-04 20:54:51,445 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:51,447 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 42.
+2024-12-04 20:54:51,464 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:51,467 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 43.
+2024-12-04 20:54:51,481 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:51,483 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 44.
+2024-12-04 20:54:51,494 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:51,496 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 45.
+2024-12-04 20:54:51,513 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:51,514 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 46.
+2024-12-04 20:54:51,523 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:51,524 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 47.
+2024-12-04 20:54:54,715 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:54,717 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 48.
+2024-12-04 20:54:54,738 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:54,739 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 49.
+2024-12-04 20:54:54,750 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:54,752 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 50.
+2024-12-04 20:54:54,764 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:54,765 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 51.
+2024-12-04 20:54:54,782 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:54,783 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 52.
+2024-12-04 20:54:54,795 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:54,797 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 53.
+2024-12-04 20:54:57,691 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:57,693 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 54.
+2024-12-04 20:54:57,712 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:57,713 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 55.
+2024-12-04 20:54:57,725 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:57,726 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 56.
+2024-12-04 20:54:57,740 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:57,742 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 57.
+2024-12-04 20:54:57,759 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:57,761 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 58.
+2024-12-04 20:54:57,773 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:57,774 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 59.
+2024-12-04 20:54:59,625 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:54:59,626 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 60.
+2024-12-04 20:54:59,640 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:54:59,641 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 61.
+2024-12-04 20:54:59,653 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:59,654 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 62.
+2024-12-04 20:54:59,667 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:59,668 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 63.
+2024-12-04 20:54:59,684 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:54:59,685 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 64.
+2024-12-04 20:54:59,694 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:54:59,695 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 65.
+2024-12-04 20:55:06,048 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:06,049 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 66.
+2024-12-04 20:55:06,064 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:06,065 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 67.
+2024-12-04 20:55:06,076 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:06,077 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 68.
+2024-12-04 20:55:06,088 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:06,091 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 69.
+2024-12-04 20:55:06,111 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:06,113 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 70.
+2024-12-04 20:55:06,122 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:06,124 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 71.
+2024-12-04 20:55:08,102 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:08,103 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 72.
+2024-12-04 20:55:08,121 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:08,123 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 73.
+2024-12-04 20:55:08,161 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:08,163 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 74.
+2024-12-04 20:55:08,175 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:08,176 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 75.
+2024-12-04 20:55:08,199 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:08,200 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 76.
+2024-12-04 20:55:08,215 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:08,216 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 77.
+2024-12-04 20:55:12,598 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:12,600 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 78.
+2024-12-04 20:55:12,617 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:12,619 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 79.
+2024-12-04 20:55:12,629 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:12,631 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 80.
+2024-12-04 20:55:12,640 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:12,641 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 81.
+2024-12-04 20:55:12,657 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:12,658 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 82.
+2024-12-04 20:55:12,668 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:12,670 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 83.
+2024-12-04 20:55:14,022 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:14,023 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 84.
+2024-12-04 20:55:14,038 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:14,040 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 85.
+2024-12-04 20:55:14,049 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:14,050 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 86.
+2024-12-04 20:55:14,061 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:14,062 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 87.
+2024-12-04 20:55:14,076 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:14,077 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 88.
+2024-12-04 20:55:14,088 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:14,090 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 89.
+2024-12-04 20:55:18,912 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:18,913 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 90.
+2024-12-04 20:55:18,944 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:18,944 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 91.
+2024-12-04 20:55:18,965 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:18,966 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 92.
+2024-12-04 20:55:18,985 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:18,986 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 93.
+2024-12-04 20:55:19,031 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:19,032 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 94.
+2024-12-04 20:55:19,053 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:19,054 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 95.
+2024-12-04 20:55:23,289 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:23,290 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 96.
+2024-12-04 20:55:23,326 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:23,327 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 97.
+2024-12-04 20:55:23,356 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:23,357 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 98.
+2024-12-04 20:55:23,377 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:23,378 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 99.
+2024-12-04 20:55:23,420 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:23,421 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 100.
+2024-12-04 20:55:23,442 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:23,443 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 101.
+2024-12-04 20:55:24,896 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:24,897 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 102.
+2024-12-04 20:55:24,932 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:24,933 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 103.
+2024-12-04 20:55:24,958 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:24,959 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 104.
+2024-12-04 20:55:24,979 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:24,980 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 105.
+2024-12-04 20:55:25,014 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:25,015 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 106.
+2024-12-04 20:55:25,041 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:25,043 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 107.
+2024-12-04 20:55:27,819 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:27,820 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 108.
+2024-12-04 20:55:27,860 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:27,861 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 109.
+2024-12-04 20:55:27,889 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:27,890 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 110.
+2024-12-04 20:55:27,915 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:27,916 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 111.
+2024-12-04 20:55:27,950 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:27,952 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 112.
+2024-12-04 20:55:27,977 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:27,978 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 113.
+2024-12-04 20:55:30,697 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:30,698 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 114.
+2024-12-04 20:55:30,732 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:30,734 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 115.
+2024-12-04 20:55:30,759 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:30,760 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 116.
+2024-12-04 20:55:30,781 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:30,782 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 117.
+2024-12-04 20:55:30,817 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:30,818 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 118.
+2024-12-04 20:55:30,846 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:30,847 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 119.
+2024-12-04 20:55:32,529 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:32,530 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 120.
+2024-12-04 20:55:35,218 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:35,219 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 121.
+2024-12-04 20:55:35,242 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:35,244 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 122.
+2024-12-04 20:55:35,280 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:35,281 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 123.
+2024-12-04 20:55:35,317 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:35,318 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 124.
+2024-12-04 20:55:35,345 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:35,346 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 125.
+2024-12-04 20:55:37,308 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:37,309 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 126.
+2024-12-04 20:55:37,347 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:37,348 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 127.
+2024-12-04 20:55:37,375 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:37,377 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 128.
+2024-12-04 20:55:37,396 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:37,398 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 129.
+2024-12-04 20:55:37,435 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:37,436 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 130.
+2024-12-04 20:55:37,462 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:37,463 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 131.
+2024-12-04 20:55:40,573 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:40,574 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 132.
+2024-12-04 20:55:40,609 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:40,610 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 133.
+2024-12-04 20:55:40,639 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:40,640 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 134.
+2024-12-04 20:55:40,666 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:40,667 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 135.
+2024-12-04 20:55:40,704 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:40,704 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 136.
+2024-12-04 20:55:40,723 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:40,724 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 137.
+2024-12-04 20:55:44,383 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:44,384 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 138.
+2024-12-04 20:55:44,419 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:44,420 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 139.
+2024-12-04 20:55:44,441 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:44,442 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 140.
+2024-12-04 20:55:44,457 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:44,458 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 141.
+2024-12-04 20:55:44,494 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:44,495 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 142.
+2024-12-04 20:55:44,511 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:44,512 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 143.
+2024-12-04 20:55:45,773 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:45,774 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 144.
+2024-12-04 20:55:45,808 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:45,810 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 145.
+2024-12-04 20:55:45,828 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:45,829 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 146.
+2024-12-04 20:55:45,855 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:45,856 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 147.
+2024-12-04 20:55:45,901 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:45,902 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 148.
+2024-12-04 20:55:45,925 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:45,926 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 149.
+2024-12-04 20:55:47,336 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:47,337 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 150.
+2024-12-04 20:55:47,375 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:47,376 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 151.
+2024-12-04 20:55:47,397 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:47,399 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 152.
+2024-12-04 20:55:47,415 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:47,416 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 153.
+2024-12-04 20:55:47,446 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:47,447 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 154.
+2024-12-04 20:55:47,467 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:47,468 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 155.
+2024-12-04 20:55:51,157 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:51,158 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 156.
+2024-12-04 20:55:51,193 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:51,194 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 157.
+2024-12-04 20:55:51,219 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:51,220 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 158.
+2024-12-04 20:55:51,241 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:51,242 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 159.
+2024-12-04 20:55:51,277 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:51,279 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 160.
+2024-12-04 20:55:51,304 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:51,305 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 161.
+2024-12-04 20:55:52,959 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:52,960 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 162.
+2024-12-04 20:55:52,992 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:52,993 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 163.
+2024-12-04 20:55:53,015 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:53,015 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 164.
+2024-12-04 20:55:53,035 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:53,036 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 165.
+2024-12-04 20:55:53,073 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:53,074 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 166.
+2024-12-04 20:55:53,102 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:53,103 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 167.
+2024-12-04 20:55:58,131 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:55:58,132 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 168.
+2024-12-04 20:55:58,169 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:55:58,170 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 169.
+2024-12-04 20:55:58,191 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:58,193 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 170.
+2024-12-04 20:55:58,220 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:58,222 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 171.
+2024-12-04 20:55:58,257 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:55:58,258 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 172.
+2024-12-04 20:55:58,280 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:55:58,281 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 173.
+2024-12-04 20:56:02,461 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:02,462 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 174.
+2024-12-04 20:56:02,500 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:02,501 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 175.
+2024-12-04 20:56:02,527 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:02,529 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 176.
+2024-12-04 20:56:02,553 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:02,554 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 177.
+2024-12-04 20:56:02,595 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:02,596 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 178.
+2024-12-04 20:56:02,617 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:02,618 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 179.
+2024-12-04 20:56:05,179 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:05,180 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 180.
+2024-12-04 20:56:06,194 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:06,195 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 181.
+2024-12-04 20:56:07,861 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:07,863 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 182.
+2024-12-04 20:56:07,884 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:07,885 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 183.
+2024-12-04 20:56:07,924 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:07,926 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 184.
+2024-12-04 20:56:07,954 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:07,955 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 185.
+2024-12-04 20:56:09,111 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:09,111 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 186.
+2024-12-04 20:56:09,148 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:09,149 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 187.
+2024-12-04 20:56:09,175 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:09,176 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 188.
+2024-12-04 20:56:09,199 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:09,200 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 189.
+2024-12-04 20:56:09,226 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:09,226 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 190.
+2024-12-04 20:56:09,252 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:09,253 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 191.
+2024-12-04 20:56:13,426 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:13,427 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 192.
+2024-12-04 20:56:13,460 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:13,461 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 193.
+2024-12-04 20:56:13,488 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:13,489 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 194.
+2024-12-04 20:56:13,511 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:13,512 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 195.
+2024-12-04 20:56:13,554 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:13,555 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 196.
+2024-12-04 20:56:13,575 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:13,576 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 197.
+2024-12-04 20:56:16,936 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:16,938 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 198.
+2024-12-04 20:56:16,978 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:16,979 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 199.
+2024-12-04 20:56:17,004 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:17,006 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 200.
+2024-12-04 20:56:17,036 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:17,037 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 201.
+2024-12-04 20:56:17,079 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:17,080 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 202.
+2024-12-04 20:56:17,107 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:17,108 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 203.
+2024-12-04 20:56:18,418 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:18,419 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 204.
+2024-12-04 20:56:18,461 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:18,462 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 205.
+2024-12-04 20:56:18,493 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:18,494 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 206.
+2024-12-04 20:56:18,522 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:18,523 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 207.
+2024-12-04 20:56:18,561 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:18,562 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 208.
+2024-12-04 20:56:18,597 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:18,598 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 209.
+2024-12-04 20:56:22,658 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:22,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 210.
+2024-12-04 20:56:22,703 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:22,704 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 211.
+2024-12-04 20:56:22,731 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:22,732 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 212.
+2024-12-04 20:56:22,753 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:22,754 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 213.
+2024-12-04 20:56:22,789 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:22,790 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 214.
+2024-12-04 20:56:22,818 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:22,819 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 215.
+2024-12-04 20:56:27,256 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:27,257 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 216.
+2024-12-04 20:56:27,302 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:27,303 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 217.
+2024-12-04 20:56:27,331 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:27,332 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 218.
+2024-12-04 20:56:27,358 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:27,359 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 219.
+2024-12-04 20:56:27,393 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:27,394 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 220.
+2024-12-04 20:56:27,420 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:27,421 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 221.
+2024-12-04 20:56:32,059 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 20:56:32,060 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 222.
+2024-12-04 20:56:32,098 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 20:56:32,099 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 223.
+2024-12-04 20:56:32,125 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:32,126 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 224.
+2024-12-04 20:56:32,147 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:32,149 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 225.
+2024-12-04 20:56:32,184 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 20:56:32,185 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 226.
+2024-12-04 20:56:32,208 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 20:56:32,209 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 227.
+2024-12-04 21:42:39,911 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-04 21:42:39,957 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-04 21:42:40,078 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:42,013 - ingestion - ERROR - Failed to send data to Kafka: [Error 6] NotLeaderForPartitionError
+2024-12-04 21:42:42,032 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:42,035 - ingestion - ERROR - Failed to send data to Kafka: [Error 6] NotLeaderForPartitionError
+2024-12-04 21:42:42,046 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:42,051 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 228.
+2024-12-04 21:42:42,062 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:42,065 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 229.
+2024-12-04 21:42:42,082 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:42,084 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 230.
+2024-12-04 21:42:42,096 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:42,098 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 231.
+2024-12-04 21:42:46,509 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:46,511 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 232.
+2024-12-04 21:42:46,524 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:46,526 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 233.
+2024-12-04 21:42:46,538 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:46,540 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 234.
+2024-12-04 21:42:46,550 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:46,553 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 235.
+2024-12-04 21:42:46,565 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:46,567 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 236.
+2024-12-04 21:42:46,575 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:46,577 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 237.
+2024-12-04 21:42:51,029 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:51,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 238.
+2024-12-04 21:42:51,045 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:51,047 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 239.
+2024-12-04 21:42:51,057 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:51,059 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 240.
+2024-12-04 21:42:51,075 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:51,077 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 241.
+2024-12-04 21:42:51,092 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:51,094 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 242.
+2024-12-04 21:42:51,103 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:51,104 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 243.
+2024-12-04 21:42:53,868 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:53,870 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 244.
+2024-12-04 21:42:53,885 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:53,886 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 245.
+2024-12-04 21:42:53,896 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:53,897 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 246.
+2024-12-04 21:42:53,908 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:53,909 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 247.
+2024-12-04 21:42:53,923 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:53,925 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 248.
+2024-12-04 21:42:53,935 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:53,937 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 249.
+2024-12-04 21:42:55,094 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:55,096 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 250.
+2024-12-04 21:42:55,115 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:55,117 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 251.
+2024-12-04 21:42:55,129 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:55,131 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 252.
+2024-12-04 21:42:55,143 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:55,145 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 253.
+2024-12-04 21:42:55,161 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:55,162 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 254.
+2024-12-04 21:42:55,172 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:55,173 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 255.
+2024-12-04 21:42:59,184 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:42:59,185 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 256.
+2024-12-04 21:42:59,200 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:42:59,201 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 257.
+2024-12-04 21:42:59,211 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:59,212 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 258.
+2024-12-04 21:42:59,220 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:59,221 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 259.
+2024-12-04 21:42:59,239 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:42:59,241 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 260.
+2024-12-04 21:42:59,253 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:42:59,255 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 261.
+2024-12-04 21:43:01,552 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:01,554 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 262.
+2024-12-04 21:43:01,577 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:01,578 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 263.
+2024-12-04 21:43:01,589 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:01,591 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 264.
+2024-12-04 21:43:01,602 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:01,603 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 265.
+2024-12-04 21:43:01,620 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:01,621 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 266.
+2024-12-04 21:43:01,634 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:01,636 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 267.
+2024-12-04 21:43:07,996 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:07,997 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 268.
+2024-12-04 21:43:08,011 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:08,012 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 269.
+2024-12-04 21:43:08,025 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:08,026 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 270.
+2024-12-04 21:43:08,039 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:08,041 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 271.
+2024-12-04 21:43:08,058 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:08,059 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 272.
+2024-12-04 21:43:08,069 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:08,070 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 273.
+2024-12-04 21:43:12,342 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:12,343 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 274.
+2024-12-04 21:43:12,374 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:12,376 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 275.
+2024-12-04 21:43:12,386 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:12,387 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 276.
+2024-12-04 21:43:12,400 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:12,401 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 277.
+2024-12-04 21:43:12,428 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:12,429 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 278.
+2024-12-04 21:43:12,440 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:12,441 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 279.
+2024-12-04 21:43:17,156 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:17,157 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 280.
+2024-12-04 21:43:17,192 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:17,193 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 281.
+2024-12-04 21:43:17,204 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:17,205 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 282.
+2024-12-04 21:43:17,217 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:17,218 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 283.
+2024-12-04 21:43:17,233 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:17,234 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 284.
+2024-12-04 21:43:17,248 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:17,250 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 285.
+2024-12-04 21:43:20,057 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:20,059 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 286.
+2024-12-04 21:43:20,075 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:20,076 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 287.
+2024-12-04 21:43:20,086 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:20,087 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 288.
+2024-12-04 21:43:20,100 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:20,101 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 289.
+2024-12-04 21:43:20,119 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:20,120 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 290.
+2024-12-04 21:43:20,130 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:20,131 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 291.
+2024-12-04 21:43:22,296 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:22,297 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 292.
+2024-12-04 21:43:22,312 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:22,313 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 293.
+2024-12-04 21:43:22,323 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:22,324 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 294.
+2024-12-04 21:43:22,336 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:22,337 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 295.
+2024-12-04 21:43:22,353 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:22,354 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 296.
+2024-12-04 21:43:22,363 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:22,364 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 297.
+2024-12-04 21:43:26,097 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:26,098 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 298.
+2024-12-04 21:43:26,116 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:26,117 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 299.
+2024-12-04 21:43:26,129 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:26,130 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 300.
+2024-12-04 21:43:26,142 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:26,143 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 301.
+2024-12-04 21:43:26,160 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:26,162 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 302.
+2024-12-04 21:43:26,175 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:26,177 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 303.
+2024-12-04 21:43:29,876 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:29,877 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 304.
+2024-12-04 21:43:29,893 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:29,894 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 305.
+2024-12-04 21:43:29,906 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:29,907 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 306.
+2024-12-04 21:43:29,919 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:29,920 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 307.
+2024-12-04 21:43:29,938 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:29,939 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 308.
+2024-12-04 21:43:29,951 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:29,952 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 309.
+2024-12-04 21:43:31,355 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:31,356 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 310.
+2024-12-04 21:43:31,371 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:31,372 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 311.
+2024-12-04 21:43:31,381 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:31,382 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 312.
+2024-12-04 21:43:31,393 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:31,395 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 313.
+2024-12-04 21:43:31,412 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:31,413 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 314.
+2024-12-04 21:43:31,425 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:31,427 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 315.
+2024-12-04 21:43:33,421 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:33,424 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 316.
+2024-12-04 21:43:33,455 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:33,457 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 317.
+2024-12-04 21:43:33,474 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:33,477 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 318.
+2024-12-04 21:43:33,497 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:33,499 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 319.
+2024-12-04 21:43:33,522 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:33,524 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 320.
+2024-12-04 21:43:33,541 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:33,542 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 321.
+2024-12-04 21:43:38,910 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:38,915 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 322.
+2024-12-04 21:43:38,938 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:38,940 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 323.
+2024-12-04 21:43:38,951 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:38,953 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 324.
+2024-12-04 21:43:38,965 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:38,971 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 325.
+2024-12-04 21:43:38,991 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:38,992 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 326.
+2024-12-04 21:43:39,011 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:39,012 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 327.
+2024-12-04 21:43:40,637 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:40,642 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 328.
+2024-12-04 21:43:40,662 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:40,664 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 329.
+2024-12-04 21:43:40,675 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:40,676 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 330.
+2024-12-04 21:43:40,690 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:40,692 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 331.
+2024-12-04 21:43:40,721 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:40,724 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 332.
+2024-12-04 21:43:40,743 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:40,745 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 333.
+2024-12-04 21:43:44,433 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:44,436 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 334.
+2024-12-04 21:43:44,454 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:44,455 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 335.
+2024-12-04 21:43:44,468 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:44,469 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 336.
+2024-12-04 21:43:44,483 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:44,485 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 337.
+2024-12-04 21:43:44,506 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:44,507 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 338.
+2024-12-04 21:43:44,519 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:44,520 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 339.
+2024-12-04 21:43:46,268 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:46,269 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 340.
+2024-12-04 21:43:46,284 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:46,286 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 341.
+2024-12-04 21:43:46,299 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:46,300 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 342.
+2024-12-04 21:43:46,311 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:46,312 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 343.
+2024-12-04 21:43:46,331 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:46,334 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 344.
+2024-12-04 21:43:46,349 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:46,350 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 345.
+2024-12-04 21:43:49,982 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:49,983 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 346.
+2024-12-04 21:43:49,998 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:49,999 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 347.
+2024-12-04 21:43:50,008 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:50,009 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 348.
+2024-12-04 21:43:50,021 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:50,022 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 349.
+2024-12-04 21:43:50,040 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:50,041 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 350.
+2024-12-04 21:43:50,053 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:50,054 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 351.
+2024-12-04 21:43:52,106 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:52,107 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 352.
+2024-12-04 21:43:52,122 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:52,123 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 353.
+2024-12-04 21:43:52,133 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:52,134 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 354.
+2024-12-04 21:43:52,145 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:52,147 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 355.
+2024-12-04 21:43:52,165 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:52,166 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 356.
+2024-12-04 21:43:52,178 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:52,179 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 357.
+2024-12-04 21:43:54,427 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:54,428 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 358.
+2024-12-04 21:43:54,443 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:54,444 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 359.
+2024-12-04 21:43:54,454 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:54,455 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 360.
+2024-12-04 21:43:54,466 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:54,467 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 361.
+2024-12-04 21:43:54,485 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:54,486 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 362.
+2024-12-04 21:43:54,496 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:54,497 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 363.
+2024-12-04 21:43:58,819 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:43:58,820 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 364.
+2024-12-04 21:43:58,838 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:43:58,839 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 365.
+2024-12-04 21:43:58,850 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:58,851 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 366.
+2024-12-04 21:43:58,862 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:58,863 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 367.
+2024-12-04 21:43:58,880 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:43:58,882 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 368.
+2024-12-04 21:43:58,911 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:43:58,912 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 369.
+2024-12-04 21:44:02,624 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:02,625 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 370.
+2024-12-04 21:44:02,659 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:02,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 371.
+2024-12-04 21:44:02,681 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:02,682 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 372.
+2024-12-04 21:44:02,701 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:02,702 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 373.
+2024-12-04 21:44:02,734 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:02,735 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 374.
+2024-12-04 21:44:02,761 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:02,762 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 375.
+2024-12-04 21:44:07,401 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:07,402 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 376.
+2024-12-04 21:44:07,436 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:07,437 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 377.
+2024-12-04 21:44:07,455 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:07,456 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 378.
+2024-12-04 21:44:07,482 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:07,483 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 379.
+2024-12-04 21:44:07,528 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:07,529 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 380.
+2024-12-04 21:44:07,549 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:07,550 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 381.
+2024-12-04 21:44:12,634 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:12,635 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 382.
+2024-12-04 21:44:12,674 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:12,675 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 383.
+2024-12-04 21:44:12,691 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:12,692 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 384.
+2024-12-04 21:44:12,709 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:12,710 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 385.
+2024-12-04 21:44:12,753 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:12,754 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 386.
+2024-12-04 21:44:12,783 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:12,784 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 387.
+2024-12-04 21:44:14,115 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:14,116 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 388.
+2024-12-04 21:44:14,157 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:14,158 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 389.
+2024-12-04 21:44:14,185 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:14,186 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 390.
+2024-12-04 21:44:14,215 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:14,216 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 391.
+2024-12-04 21:44:14,265 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:14,266 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 392.
+2024-12-04 21:44:14,293 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:14,294 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 393.
+2024-12-04 21:44:16,880 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:16,881 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 394.
+2024-12-04 21:44:16,912 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:16,913 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 395.
+2024-12-04 21:44:16,942 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:16,943 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 396.
+2024-12-04 21:44:16,966 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:16,967 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 397.
+2024-12-04 21:44:17,011 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:17,012 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 398.
+2024-12-04 21:44:17,035 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:17,036 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 399.
+2024-12-04 21:44:19,819 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:19,820 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 400.
+2024-12-04 21:44:19,877 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:19,879 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 401.
+2024-12-04 21:44:19,914 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:19,915 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 402.
+2024-12-04 21:44:19,950 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:19,951 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 403.
+2024-12-04 21:44:20,037 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:20,038 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 404.
+2024-12-04 21:44:20,074 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:20,075 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 405.
+2024-12-04 21:44:22,181 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:22,182 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 406.
+2024-12-04 21:44:22,220 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:22,221 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 407.
+2024-12-04 21:44:22,256 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:22,258 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 408.
+2024-12-04 21:44:22,276 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:22,277 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 409.
+2024-12-04 21:44:22,321 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:22,322 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 410.
+2024-12-04 21:44:22,350 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:22,351 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 411.
+2024-12-04 21:44:26,678 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 21:44:26,679 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 412.
+2024-12-04 21:44:26,717 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 21:44:26,718 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 413.
+2024-12-04 21:44:26,741 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:26,742 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 414.
+2024-12-04 21:44:26,765 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:26,766 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 415.
+2024-12-04 21:44:26,809 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 21:44:26,810 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 416.
+2024-12-04 21:44:26,832 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 21:44:26,833 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 417.
+2024-12-04 22:06:21,069 - ingestion - INFO - Bucket 'mybucket' already exists.
+2024-12-04 22:06:21,135 - ingestion - INFO - Connected to Kafka successfully.
+2024-12-04 22:06:22,184 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:23,221 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 418.
+2024-12-04 22:06:23,237 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:23,240 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 419.
+2024-12-04 22:06:23,251 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:23,254 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 420.
+2024-12-04 22:06:23,262 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:23,265 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 421.
+2024-12-04 22:06:23,278 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:23,280 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 422.
+2024-12-04 22:06:23,295 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:23,297 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 423.
+2024-12-04 22:06:25,827 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:25,829 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 424.
+2024-12-04 22:06:25,841 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:25,844 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 425.
+2024-12-04 22:06:25,853 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:25,855 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 426.
+2024-12-04 22:06:25,866 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:25,868 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 427.
+2024-12-04 22:06:25,881 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:25,883 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 428.
+2024-12-04 22:06:25,891 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:25,893 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 429.
+2024-12-04 22:06:30,808 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:30,810 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 430.
+2024-12-04 22:06:30,825 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:30,827 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 431.
+2024-12-04 22:06:30,836 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:30,838 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 432.
+2024-12-04 22:06:30,859 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:30,862 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 433.
+2024-12-04 22:06:30,877 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:30,879 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 434.
+2024-12-04 22:06:30,889 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:30,891 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 435.
+2024-12-04 22:06:34,665 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:34,666 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 436.
+2024-12-04 22:06:34,682 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:34,683 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 437.
+2024-12-04 22:06:34,693 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:34,694 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 438.
+2024-12-04 22:06:34,704 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:34,706 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 439.
+2024-12-04 22:06:34,721 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:34,723 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 440.
+2024-12-04 22:06:34,733 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:34,735 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 441.
+2024-12-04 22:06:39,001 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:39,002 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 442.
+2024-12-04 22:06:39,018 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:39,020 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 443.
+2024-12-04 22:06:39,031 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:39,032 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 444.
+2024-12-04 22:06:39,045 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:39,047 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 445.
+2024-12-04 22:06:39,064 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:39,065 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 446.
+2024-12-04 22:06:39,076 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:39,077 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 447.
+2024-12-04 22:06:40,331 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:40,333 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 448.
+2024-12-04 22:06:40,347 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:40,348 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 449.
+2024-12-04 22:06:40,359 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:40,360 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 450.
+2024-12-04 22:06:40,372 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:40,373 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 451.
+2024-12-04 22:06:40,392 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:40,394 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 452.
+2024-12-04 22:06:40,403 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:40,404 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 453.
+2024-12-04 22:06:43,414 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:43,416 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 454.
+2024-12-04 22:06:43,431 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:43,432 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 455.
+2024-12-04 22:06:43,443 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:43,444 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 456.
+2024-12-04 22:06:43,456 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:43,457 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 457.
+2024-12-04 22:06:43,475 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:43,476 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 458.
+2024-12-04 22:06:43,489 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:43,491 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 459.
+2024-12-04 22:06:45,030 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:45,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 460.
+2024-12-04 22:06:45,046 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:45,048 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 461.
+2024-12-04 22:06:45,058 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:45,059 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 462.
+2024-12-04 22:06:45,071 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:45,073 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 463.
+2024-12-04 22:06:45,093 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:45,094 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 464.
+2024-12-04 22:06:45,104 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:45,105 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 465.
+2024-12-04 22:06:48,040 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:48,042 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 466.
+2024-12-04 22:06:48,095 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:48,097 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 467.
+2024-12-04 22:06:48,109 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:48,110 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 468.
+2024-12-04 22:06:48,122 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:48,124 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 469.
+2024-12-04 22:06:48,142 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:48,143 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 470.
+2024-12-04 22:06:48,153 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:48,155 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 471.
+2024-12-04 22:06:49,405 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:49,406 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 472.
+2024-12-04 22:06:49,423 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:49,424 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 473.
+2024-12-04 22:06:49,440 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:49,441 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 474.
+2024-12-04 22:06:49,454 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:49,455 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 475.
+2024-12-04 22:06:49,474 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:49,476 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 476.
+2024-12-04 22:06:49,487 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:49,488 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 477.
+2024-12-04 22:06:50,640 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:50,641 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 478.
+2024-12-04 22:06:50,657 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:50,658 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 479.
+2024-12-04 22:06:50,669 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:50,670 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 480.
+2024-12-04 22:06:50,683 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:50,684 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 481.
+2024-12-04 22:06:50,697 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:50,698 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 482.
+2024-12-04 22:06:50,709 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:50,710 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 483.
+2024-12-04 22:06:54,453 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:54,455 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 484.
+2024-12-04 22:06:54,470 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:54,471 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 485.
+2024-12-04 22:06:54,482 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:54,484 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 486.
+2024-12-04 22:06:54,494 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:54,495 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 487.
+2024-12-04 22:06:54,509 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:54,510 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 488.
+2024-12-04 22:06:54,521 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:54,522 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 489.
+2024-12-04 22:06:57,384 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:06:57,385 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 490.
+2024-12-04 22:06:57,405 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:06:57,407 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 491.
+2024-12-04 22:06:57,419 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:57,420 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 492.
+2024-12-04 22:06:57,433 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:57,434 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 493.
+2024-12-04 22:06:57,452 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:06:57,453 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 494.
+2024-12-04 22:06:57,475 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:06:57,477 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 495.
+2024-12-04 22:07:02,275 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:02,276 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 496.
+2024-12-04 22:07:02,293 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:02,294 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 497.
+2024-12-04 22:07:02,305 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:02,307 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 498.
+2024-12-04 22:07:02,320 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:02,321 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 499.
+2024-12-04 22:07:02,338 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:02,339 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 500.
+2024-12-04 22:07:02,348 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:02,349 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 501.
+2024-12-04 22:07:03,982 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:03,983 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 502.
+2024-12-04 22:07:03,997 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:03,998 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 503.
+2024-12-04 22:07:04,009 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:04,010 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 504.
+2024-12-04 22:07:04,022 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:04,023 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 505.
+2024-12-04 22:07:04,039 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:04,041 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 506.
+2024-12-04 22:07:04,050 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:04,051 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 507.
+2024-12-04 22:07:09,575 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:09,576 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 508.
+2024-12-04 22:07:11,424 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:11,425 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 509.
+2024-12-04 22:07:11,436 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:11,437 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 510.
+2024-12-04 22:07:11,446 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:11,447 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 511.
+2024-12-04 22:07:11,463 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:11,464 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 512.
+2024-12-04 22:07:11,475 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:11,477 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 513.
+2024-12-04 22:07:13,275 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:13,276 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 514.
+2024-12-04 22:07:13,293 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:13,294 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 515.
+2024-12-04 22:07:13,303 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:13,304 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 516.
+2024-12-04 22:07:13,315 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:13,316 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 517.
+2024-12-04 22:07:13,330 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:13,332 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 518.
+2024-12-04 22:07:13,342 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:13,343 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 519.
+2024-12-04 22:07:17,623 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:17,625 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 520.
+2024-12-04 22:07:17,644 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:17,645 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 521.
+2024-12-04 22:07:17,656 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:17,658 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 522.
+2024-12-04 22:07:17,671 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:17,672 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 523.
+2024-12-04 22:07:17,690 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:17,691 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 524.
+2024-12-04 22:07:17,701 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:17,703 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 525.
+2024-12-04 22:07:19,733 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:19,734 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 526.
+2024-12-04 22:07:19,750 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:19,751 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 527.
+2024-12-04 22:07:19,765 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:19,766 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 528.
+2024-12-04 22:07:19,779 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:19,780 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 529.
+2024-12-04 22:07:19,799 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:19,801 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 530.
+2024-12-04 22:07:19,812 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:19,813 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 531.
+2024-12-04 22:07:21,592 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:21,593 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 532.
+2024-12-04 22:07:21,609 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:21,610 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 533.
+2024-12-04 22:07:21,623 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:21,624 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 534.
+2024-12-04 22:07:21,634 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:21,635 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 535.
+2024-12-04 22:07:21,651 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:21,652 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 536.
+2024-12-04 22:07:21,663 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:21,664 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 537.
+2024-12-04 22:07:23,363 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:23,364 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 538.
+2024-12-04 22:07:23,387 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:23,389 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 539.
+2024-12-04 22:07:23,402 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:23,403 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 540.
+2024-12-04 22:07:23,413 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:23,414 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 541.
+2024-12-04 22:07:23,431 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:23,434 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 542.
+2024-12-04 22:07:23,445 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:23,446 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 543.
+2024-12-04 22:07:27,599 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:27,600 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 544.
+2024-12-04 22:07:27,615 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:27,616 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 545.
+2024-12-04 22:07:27,631 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:27,632 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 546.
+2024-12-04 22:07:27,641 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:27,642 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 547.
+2024-12-04 22:07:27,658 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:27,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 548.
+2024-12-04 22:07:27,673 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:27,674 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 549.
+2024-12-04 22:07:31,238 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:31,239 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 550.
+2024-12-04 22:07:31,257 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:31,259 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 551.
+2024-12-04 22:07:31,269 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:31,271 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 552.
+2024-12-04 22:07:31,284 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:31,285 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 553.
+2024-12-04 22:07:31,302 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:31,303 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 554.
+2024-12-04 22:07:31,314 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:31,316 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 555.
+2024-12-04 22:07:35,682 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:35,683 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 556.
+2024-12-04 22:07:35,698 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:35,699 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 557.
+2024-12-04 22:07:35,711 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:35,712 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 558.
+2024-12-04 22:07:35,725 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:35,727 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 559.
+2024-12-04 22:07:35,746 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:35,748 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 560.
+2024-12-04 22:07:35,757 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:35,758 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 561.
+2024-12-04 22:07:37,235 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:37,236 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 562.
+2024-12-04 22:07:37,252 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:37,253 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 563.
+2024-12-04 22:07:37,264 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:37,265 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 564.
+2024-12-04 22:07:37,277 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:37,279 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 565.
+2024-12-04 22:07:37,295 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:37,296 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 566.
+2024-12-04 22:07:37,306 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:37,307 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 567.
+2024-12-04 22:07:39,506 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:39,507 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 568.
+2024-12-04 22:07:39,522 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:39,523 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 569.
+2024-12-04 22:07:39,533 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:39,534 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 570.
+2024-12-04 22:07:39,547 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:39,548 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 571.
+2024-12-04 22:07:39,564 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:39,565 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 572.
+2024-12-04 22:07:39,577 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:39,578 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 573.
+2024-12-04 22:07:44,383 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:44,384 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 574.
+2024-12-04 22:07:44,398 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:44,400 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 575.
+2024-12-04 22:07:44,410 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:44,411 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 576.
+2024-12-04 22:07:44,422 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:44,422 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 577.
+2024-12-04 22:07:44,437 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:44,438 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 578.
+2024-12-04 22:07:44,448 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:44,449 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 579.
+2024-12-04 22:07:47,360 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:47,360 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 580.
+2024-12-04 22:07:47,375 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:47,376 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 581.
+2024-12-04 22:07:47,385 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:47,386 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 582.
+2024-12-04 22:07:47,397 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:47,398 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 583.
+2024-12-04 22:07:47,422 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:47,423 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 584.
+2024-12-04 22:07:47,433 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:47,434 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 585.
+2024-12-04 22:07:50,619 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:50,620 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 586.
+2024-12-04 22:07:50,635 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:50,636 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 587.
+2024-12-04 22:07:50,648 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:50,649 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 588.
+2024-12-04 22:07:50,661 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:50,662 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 589.
+2024-12-04 22:07:50,679 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:50,680 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 590.
+2024-12-04 22:07:50,689 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:50,690 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 591.
+2024-12-04 22:07:52,763 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:52,764 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 592.
+2024-12-04 22:07:52,779 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:52,780 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 593.
+2024-12-04 22:07:52,789 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:52,790 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 594.
+2024-12-04 22:07:52,801 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:52,802 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 595.
+2024-12-04 22:07:52,819 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:52,820 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 596.
+2024-12-04 22:07:52,831 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:52,832 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 597.
+2024-12-04 22:07:53,988 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:53,988 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 598.
+2024-12-04 22:07:54,005 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:54,006 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 599.
+2024-12-04 22:07:54,018 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:54,019 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 600.
+2024-12-04 22:07:54,030 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:54,032 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 601.
+2024-12-04 22:07:54,052 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:54,053 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 602.
+2024-12-04 22:07:54,064 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:54,065 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 603.
+2024-12-04 22:07:57,796 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:07:57,797 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 604.
+2024-12-04 22:07:57,813 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:07:57,814 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 605.
+2024-12-04 22:07:57,823 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:57,824 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 606.
+2024-12-04 22:07:57,836 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:57,838 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 607.
+2024-12-04 22:07:57,857 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:07:57,858 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 608.
+2024-12-04 22:07:57,869 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:07:57,870 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 609.
+2024-12-04 22:08:02,152 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:02,154 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 610.
+2024-12-04 22:08:02,198 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:02,199 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 611.
+2024-12-04 22:08:02,228 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:02,229 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 612.
+2024-12-04 22:08:02,250 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:02,251 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 613.
+2024-12-04 22:08:02,301 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:02,303 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 614.
+2024-12-04 22:08:02,325 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:02,326 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 615.
+2024-12-04 22:08:06,529 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:06,530 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 616.
+2024-12-04 22:08:06,562 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:06,563 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 617.
+2024-12-04 22:08:06,580 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:06,581 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 618.
+2024-12-04 22:08:06,608 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:06,609 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 619.
+2024-12-04 22:08:06,647 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:06,648 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 620.
+2024-12-04 22:08:06,667 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:06,668 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 621.
+2024-12-04 22:08:10,979 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:10,980 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 622.
+2024-12-04 22:08:11,025 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:11,026 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 623.
+2024-12-04 22:08:11,056 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:11,056 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 624.
+2024-12-04 22:08:11,078 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:11,079 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 625.
+2024-12-04 22:08:11,122 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:11,123 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 626.
+2024-12-04 22:08:11,145 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:11,146 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 627.
+2024-12-04 22:08:14,076 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:14,077 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 628.
+2024-12-04 22:08:14,115 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:14,116 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 629.
+2024-12-04 22:08:14,144 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:14,145 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 630.
+2024-12-04 22:08:15,125 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:16,960 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 631.
+2024-12-04 22:08:17,007 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:17,008 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 632.
+2024-12-04 22:08:17,033 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:17,034 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 633.
+2024-12-04 22:08:21,564 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:21,565 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 634.
+2024-12-04 22:08:21,605 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:21,606 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 635.
+2024-12-04 22:08:21,628 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:21,629 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 636.
+2024-12-04 22:08:21,650 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:21,651 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 637.
+2024-12-04 22:08:21,694 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:21,695 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 638.
+2024-12-04 22:08:21,713 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:21,713 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 639.
+2024-12-04 22:08:24,475 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:24,476 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 640.
+2024-12-04 22:08:24,513 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:24,514 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 641.
+2024-12-04 22:08:24,537 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:24,538 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 642.
+2024-12-04 22:08:24,564 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:24,566 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 643.
+2024-12-04 22:08:24,603 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:24,604 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 644.
+2024-12-04 22:08:24,631 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:24,632 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 645.
+2024-12-04 22:08:27,944 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:27,944 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 646.
+2024-12-04 22:08:27,989 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:27,990 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 647.
+2024-12-04 22:08:28,011 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:28,012 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 648.
+2024-12-04 22:08:28,042 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:28,043 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 649.
+2024-12-04 22:08:28,083 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:28,084 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 650.
+2024-12-04 22:08:28,105 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:28,106 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 651.
+2024-12-04 22:08:29,811 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:29,812 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 652.
+2024-12-04 22:08:29,849 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:29,849 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 653.
+2024-12-04 22:08:29,878 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:29,879 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 654.
+2024-12-04 22:08:29,905 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:29,906 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 655.
+2024-12-04 22:08:29,941 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:29,942 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 656.
+2024-12-04 22:08:29,968 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:29,969 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 657.
+2024-12-04 22:08:33,803 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:33,804 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 658.
+2024-12-04 22:08:33,846 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:33,846 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 659.
+2024-12-04 22:08:33,869 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:33,870 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 660.
+2024-12-04 22:08:33,898 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:33,899 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 661.
+2024-12-04 22:08:33,938 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:33,939 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 662.
+2024-12-04 22:08:33,960 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:33,961 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 663.
+2024-12-04 22:08:35,379 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:35,380 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 664.
+2024-12-04 22:08:35,416 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:35,417 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 665.
+2024-12-04 22:08:35,445 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:35,446 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 666.
+2024-12-04 22:08:35,469 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:35,470 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 667.
+2024-12-04 22:08:35,506 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:35,506 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 668.
+2024-12-04 22:08:35,522 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:35,523 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 669.
+2024-12-04 22:08:37,503 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:37,504 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 670.
+2024-12-04 22:08:37,548 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:37,549 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 671.
+2024-12-04 22:08:37,577 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:37,578 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 672.
+2024-12-04 22:08:37,598 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:37,599 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 673.
+2024-12-04 22:08:37,632 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:37,633 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 674.
+2024-12-04 22:08:37,658 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:37,659 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 675.
+2024-12-04 22:08:40,642 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:40,643 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 676.
+2024-12-04 22:08:40,680 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:40,681 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 677.
+2024-12-04 22:08:40,697 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:40,698 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 678.
+2024-12-04 22:08:40,727 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:40,728 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 679.
+2024-12-04 22:08:40,761 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:40,762 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 680.
+2024-12-04 22:08:40,789 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:40,790 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 681.
+2024-12-04 22:08:45,101 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:45,102 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 682.
+2024-12-04 22:08:45,145 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:45,146 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 683.
+2024-12-04 22:08:45,164 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:45,164 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 684.
+2024-12-04 22:08:45,181 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:45,181 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 685.
+2024-12-04 22:08:45,220 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:45,221 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 686.
+2024-12-04 22:08:45,243 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:45,244 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 687.
+2024-12-04 22:08:46,383 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:46,384 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 688.
+2024-12-04 22:08:46,433 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:46,434 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 689.
+2024-12-04 22:08:46,465 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:46,466 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 690.
+2024-12-04 22:08:46,491 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:46,492 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 691.
+2024-12-04 22:08:46,524 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:46,525 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 692.
+2024-12-04 22:08:46,552 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:46,553 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 693.
+2024-12-04 22:08:53,108 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:53,109 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 694.
+2024-12-04 22:08:53,145 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:53,146 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 695.
+2024-12-04 22:08:53,171 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:53,172 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 696.
+2024-12-04 22:08:53,194 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:53,194 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 697.
+2024-12-04 22:08:53,228 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:53,229 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 698.
+2024-12-04 22:08:53,245 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:53,246 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 699.
+2024-12-04 22:08:56,030 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:08:56,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 700.
+2024-12-04 22:08:56,066 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:08:56,067 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 701.
+2024-12-04 22:08:56,088 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:56,089 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 702.
+2024-12-04 22:08:56,109 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:56,110 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 703.
+2024-12-04 22:08:56,163 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:08:56,164 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 704.
+2024-12-04 22:08:56,190 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:08:56,191 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 705.
+2024-12-04 22:09:00,292 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:00,293 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 706.
+2024-12-04 22:09:00,329 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:00,330 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 707.
+2024-12-04 22:09:00,357 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:00,359 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 708.
+2024-12-04 22:09:00,388 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:00,389 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 709.
+2024-12-04 22:09:00,430 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:00,432 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 710.
+2024-12-04 22:09:00,449 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:00,449 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 711.
+2024-12-04 22:09:02,176 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:02,176 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 712.
+2024-12-04 22:09:02,209 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:02,210 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 713.
+2024-12-04 22:09:02,233 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:02,234 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 714.
+2024-12-04 22:09:02,260 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:02,262 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 715.
+2024-12-04 22:09:02,306 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:02,307 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 716.
+2024-12-04 22:09:02,332 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:02,333 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 717.
+2024-12-04 22:09:07,099 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:07,100 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 718.
+2024-12-04 22:09:07,137 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:07,138 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 719.
+2024-12-04 22:09:07,155 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:07,156 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 720.
+2024-12-04 22:09:07,182 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:07,183 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 721.
+2024-12-04 22:09:07,218 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:07,219 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 722.
+2024-12-04 22:09:07,241 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:07,242 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 723.
+2024-12-04 22:09:11,273 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:11,274 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 724.
+2024-12-04 22:09:11,312 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:11,313 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 725.
+2024-12-04 22:09:11,336 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:11,337 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 726.
+2024-12-04 22:09:11,364 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:11,364 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 727.
+2024-12-04 22:09:11,403 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:11,404 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 728.
+2024-12-04 22:09:11,430 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:11,431 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 729.
+2024-12-04 22:09:12,879 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:12,880 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 730.
+2024-12-04 22:09:12,919 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:12,920 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 731.
+2024-12-04 22:09:12,948 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:12,949 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 732.
+2024-12-04 22:09:12,973 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:12,974 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 733.
+2024-12-04 22:09:13,020 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:13,021 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 734.
+2024-12-04 22:09:13,042 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:13,043 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 735.
+2024-12-04 22:09:18,044 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:18,046 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 736.
+2024-12-04 22:09:18,082 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:18,083 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 737.
+2024-12-04 22:09:18,108 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:18,109 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 738.
+2024-12-04 22:09:18,132 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:18,133 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 739.
+2024-12-04 22:09:18,178 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:18,179 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 740.
+2024-12-04 22:09:18,205 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:18,206 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 741.
+2024-12-04 22:09:24,128 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:24,129 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 742.
+2024-12-04 22:09:24,167 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:24,168 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 743.
+2024-12-04 22:09:24,186 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:24,187 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 744.
+2024-12-04 22:09:24,214 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:24,215 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 745.
+2024-12-04 22:09:24,249 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:24,250 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 746.
+2024-12-04 22:09:24,268 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:24,269 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 747.
+2024-12-04 22:09:27,069 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:27,070 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 748.
+2024-12-04 22:09:27,102 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:27,103 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 749.
+2024-12-04 22:09:27,131 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:27,133 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 750.
+2024-12-04 22:09:27,156 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:27,157 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 751.
+2024-12-04 22:09:27,194 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:27,195 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 752.
+2024-12-04 22:09:27,222 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:27,223 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 753.
+2024-12-04 22:09:31,047 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:31,048 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 754.
+2024-12-04 22:09:31,082 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:31,083 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 755.
+2024-12-04 22:09:31,109 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:31,110 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 756.
+2024-12-04 22:09:31,131 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:31,132 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 757.
+2024-12-04 22:09:31,168 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:31,168 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 758.
+2024-12-04 22:09:31,190 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:31,191 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 759.
+2024-12-04 22:09:35,649 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:35,650 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 760.
+2024-12-04 22:09:35,684 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:35,685 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 761.
+2024-12-04 22:09:35,713 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:35,714 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 762.
+2024-12-04 22:09:35,734 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:35,735 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 763.
+2024-12-04 22:09:35,784 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:35,786 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 764.
+2024-12-04 22:09:35,807 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:35,808 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 765.
+2024-12-04 22:09:40,680 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:40,681 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 766.
+2024-12-04 22:09:40,717 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:40,718 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 767.
+2024-12-04 22:09:40,744 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:40,745 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 768.
+2024-12-04 22:09:40,765 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:40,766 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 769.
+2024-12-04 22:09:40,809 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:40,810 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 770.
+2024-12-04 22:09:40,832 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:40,833 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 771.
+2024-12-04 22:09:44,968 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:44,969 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 772.
+2024-12-04 22:09:45,002 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:45,003 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 773.
+2024-12-04 22:09:45,029 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:45,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 774.
+2024-12-04 22:09:45,053 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:45,054 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 775.
+2024-12-04 22:09:45,097 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:45,098 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 776.
+2024-12-04 22:09:45,119 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:45,120 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 777.
+2024-12-04 22:09:48,264 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:48,265 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 778.
+2024-12-04 22:09:48,307 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:48,308 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 779.
+2024-12-04 22:09:48,329 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:48,330 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 780.
+2024-12-04 22:09:48,353 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:48,354 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 781.
+2024-12-04 22:09:48,392 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:48,393 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 782.
+2024-12-04 22:09:48,410 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:48,411 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 783.
+2024-12-04 22:09:50,922 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:50,922 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 784.
+2024-12-04 22:09:50,959 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:50,960 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 785.
+2024-12-04 22:09:50,992 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:50,993 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 786.
+2024-12-04 22:09:51,030 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:51,031 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 787.
+2024-12-04 22:09:51,068 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:51,069 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 788.
+2024-12-04 22:09:51,096 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:51,097 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 789.
+2024-12-04 22:09:56,793 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:56,794 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 790.
+2024-12-04 22:09:56,829 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:56,830 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 791.
+2024-12-04 22:09:56,856 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:56,857 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 792.
+2024-12-04 22:09:56,879 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:56,880 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 793.
+2024-12-04 22:09:56,919 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:56,920 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 794.
+2024-12-04 22:09:56,946 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:56,947 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 795.
+2024-12-04 22:09:59,694 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:09:59,695 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 796.
+2024-12-04 22:09:59,728 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:09:59,729 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 797.
+2024-12-04 22:09:59,757 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:59,758 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 798.
+2024-12-04 22:09:59,781 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:59,782 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 799.
+2024-12-04 22:09:59,823 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:09:59,824 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 800.
+2024-12-04 22:09:59,858 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:09:59,859 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 801.
+2024-12-04 22:10:04,810 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:04,811 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 802.
+2024-12-04 22:10:04,848 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:04,848 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 803.
+2024-12-04 22:10:04,864 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:04,865 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 804.
+2024-12-04 22:10:04,891 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:04,892 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 805.
+2024-12-04 22:10:04,936 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:04,937 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 806.
+2024-12-04 22:10:04,958 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:04,959 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 807.
+2024-12-04 22:10:09,284 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:09,285 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 808.
+2024-12-04 22:10:09,319 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:09,320 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 809.
+2024-12-04 22:10:09,336 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:09,338 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 810.
+2024-12-04 22:10:09,366 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:09,367 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 811.
+2024-12-04 22:10:09,407 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:09,408 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 812.
+2024-12-04 22:10:09,433 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:09,434 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 813.
+2024-12-04 22:10:11,282 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:11,283 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 814.
+2024-12-04 22:10:11,324 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:11,325 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 815.
+2024-12-04 22:10:11,341 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:11,342 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 816.
+2024-12-04 22:10:11,370 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:11,371 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 817.
+2024-12-04 22:10:11,406 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:11,407 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 818.
+2024-12-04 22:10:11,427 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:11,428 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 819.
+2024-12-04 22:10:14,572 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:14,573 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 820.
+2024-12-04 22:10:14,605 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:14,606 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 821.
+2024-12-04 22:10:14,632 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:14,633 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 822.
+2024-12-04 22:10:14,654 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:14,655 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 823.
+2024-12-04 22:10:14,690 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:14,692 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 824.
+2024-12-04 22:10:14,714 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:14,715 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 825.
+2024-12-04 22:10:16,206 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:16,207 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 826.
+2024-12-04 22:10:16,242 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:16,243 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 827.
+2024-12-04 22:10:16,269 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:16,271 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 828.
+2024-12-04 22:10:16,293 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:16,294 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 829.
+2024-12-04 22:10:16,327 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:16,328 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 830.
+2024-12-04 22:10:16,354 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:16,355 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 831.
+2024-12-04 22:10:19,623 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:19,625 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 832.
+2024-12-04 22:10:19,673 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:19,674 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 833.
+2024-12-04 22:10:19,699 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:19,700 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 834.
+2024-12-04 22:10:19,722 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:19,723 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 835.
+2024-12-04 22:10:19,758 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:19,759 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 836.
+2024-12-04 22:10:19,784 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:19,785 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 837.
+2024-12-04 22:10:21,184 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:21,185 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 838.
+2024-12-04 22:10:21,222 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:21,223 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 839.
+2024-12-04 22:10:21,249 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:21,250 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 840.
+2024-12-04 22:10:21,271 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:21,272 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 841.
+2024-12-04 22:10:21,308 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:21,309 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 842.
+2024-12-04 22:10:21,337 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:21,338 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 843.
+2024-12-04 22:10:25,148 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:25,149 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 844.
+2024-12-04 22:10:25,182 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:25,183 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 845.
+2024-12-04 22:10:25,209 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:25,210 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 846.
+2024-12-04 22:10:25,232 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:25,233 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 847.
+2024-12-04 22:10:25,269 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:25,269 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 848.
+2024-12-04 22:10:28,109 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:28,110 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 849.
+2024-12-04 22:10:31,020 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt' in MinIO.
+2024-12-04 22:10:31,021 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 850.
+2024-12-04 22:10:31,062 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt' in MinIO.
+2024-12-04 22:10:31,063 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 851.
+2024-12-04 22:10:31,092 - ingestion - INFO - Stored 'content/the-great-gatsby.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:31,093 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 852.
+2024-12-04 22:10:31,116 - ingestion - INFO - Stored 'content/alice-in-wonderland.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:31,117 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 853.
+2024-12-04 22:10:31,155 - ingestion - INFO - Stored 'content/the-great-gatsby.txt' in MinIO.
+2024-12-04 22:10:31,156 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 854.
+2024-12-04 22:10:31,176 - ingestion - INFO - Stored 'content/romeo-and-juliet.txt:Zone.Identifier' in MinIO.
+2024-12-04 22:10:31,177 - ingestion - INFO - Sent data to Kafka topic 'test-topic' with offset 855.

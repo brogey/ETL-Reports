@@ -71,6 +71,11 @@ def main():
         logger.critical(f"Failed to connect to Kafka as consumer: {e}")
         raise
 
+    # Batch processing variables
+    docs_to_add = []
+    batch_size = 10  # Adjust based on your preference
+
+
     # Consume messages
     for message in consumer:
         try:
@@ -100,6 +105,27 @@ def main():
             logger.info(f"Retrieved chunk '{object_name}' of size {chunk_size} bytes.")
 
             # TODO: Implement any additional processing of the chunk here
+
+            # Create a Document object
+            doc = Document(
+                page_content=chunk_content,
+                metadata={
+                    'source': object_name,
+                    'original_file': original_file,
+                    'chunk_index': chunk_index,
+                    'total_chunks': total_chunks
+                }
+            )
+
+            # Append to batch list
+            docs_to_add.append(doc)
+
+            if len(docs_to_add) >= batch_size:
+                # Add documents to vectorstore without splitting
+                vectorstore.add_documents(docs_to_add)
+                logger.info(f"Successfully added {len(docs_to_add)} documents to Qdrant.")
+                docs_to_add = []
+
 
         except Exception as e:
             logger.error(f"Error processing chunk metadata: {e}")
