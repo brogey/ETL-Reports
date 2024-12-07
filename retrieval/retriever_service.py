@@ -9,6 +9,11 @@ from minio import Minio
 from kafka import KafkaConsumer
 from kafka.errors import KafkaError
 from minio.error import S3Error
+from langchain.schema import Document
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Qdrant
+from qdrant_client import QdrantClient
+from langchain_community.llms import OpenAI
 
 # Environment Variables
 MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "minio:9000")
@@ -16,6 +21,8 @@ MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
 MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin")
 CHUNK_TOPIC = os.getenv("CHUNK_TOPIC", "chunk-topic")
 LOG_FILE_PATH = os.getenv("LOG_FILE_PATH", "/logs/data_retrieval.log")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "API KEY HERE")
+
 
 # Configure Logging
 logger = logging.getLogger("retrieval")
@@ -70,6 +77,24 @@ def main():
     except KafkaError as e:
         logger.critical(f"Failed to connect to Kafka as consumer: {e}")
         raise
+    
+    # Qdrant Configuration
+    QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")
+    QDRANT_PORT = int(os.getenv("QDRANT_PORT", 6333))
+    COLLECTION_NAME = 'ETL Documents'  # Define your collection name
+
+    # Initialize Qdrant client
+    qdrant_client = QdrantClient(host="qdrant", port=6333)
+
+    # Initialize embeddings
+    embeddings = OpenAIEmbeddings()
+
+    # Initialize vectorstore
+    # vectorstore = Qdrant(
+    #     client=qdrant_client,
+    #     collection_name=COLLECTION_NAME,
+    #     embeddings=embeddings,
+    # )
 
     # Batch processing variables
     docs_to_add = []
@@ -122,7 +147,13 @@ def main():
 
             if len(docs_to_add) >= batch_size:
                 # Add documents to vectorstore without splitting
-                vectorstore.add_documents(docs_to_add)
+                vectorstore = Qdrant.from_documents(
+                    documents=docs_to_add,
+                    embedding=OpenAIEmbeddings(),
+                    host="qdrant",
+                    port=6333,
+                    collection_name="ETL Documents"
+                )
                 logger.info(f"Successfully added {len(docs_to_add)} documents to Qdrant.")
                 docs_to_add = []
 

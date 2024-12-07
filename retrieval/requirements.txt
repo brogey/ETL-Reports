@@ -1,2 +1,11 @@
 minio
 kafka-python
+langchain
+langchain-community
+langchain-core
+langchain-openai
+qdrant_client
+streamlit
+qdrant-client
+openai
+

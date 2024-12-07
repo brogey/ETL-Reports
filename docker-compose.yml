@@ -104,9 +104,13 @@ services:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
       - CHUNK_TOPIC=chunk-topic
       - LOG_FILE_PATH=/logs/data_retrieval.log
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - OPENAI_API_KEY=API KEY HERE
     volumes:
       - logs:/logs
     depends_on:
+      - qdrant
       - kafka
       - minio
     restart: unless-stopped
@@ -159,6 +163,8 @@ services:
 
   qdrant:
     image: qdrant/qdrant
+    networks: 
+      - etl-network
     ports:
       - "6333:6333"
       - "6334:6334"
@@ -167,6 +173,8 @@ services:
 
   streamlit:
     build: .
+    networks: 
+      - etl-network
     ports:
       - "8501:8501"
     depends_on:
